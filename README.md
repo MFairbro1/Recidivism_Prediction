@@ -1,7 +1,6 @@
-# Recidivism Prediction
+# Project Topic: Recidivism Prediction 
 
-## Topic:
-
+## What is the project trying to establish:
 Predicting which convicts are likely to commit crime again in order to determine rehabilitation strategies.
 
 ## Source Data:
@@ -9,5 +8,7 @@ Predicting which convicts are likely to commit crime again in order to determine
 Recidivism dataset for prisoners serving prison terms in Iowa over a three year period, after initial release from prison. Includes data for race/ethnicity, age, offense type etc. for each prisoner.
 
 ## Communication Protocols:
-
-The team will be communicating and collaborating on the project via Slack and Zoom.
+- Slack
+  - to speak about questions and queires while working on independant parts
+- Zoom
+  - to work together aside from the class time
