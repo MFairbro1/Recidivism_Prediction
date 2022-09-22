@@ -12,4 +12,4 @@ In order to tackle the problem of developing a machine learning algorithm to det
   - Random Forest Model
   - Neural Network
   - Support Vector Machines (SVM)
-- Out of the above models, to start with a Logistic Regression will be used as a baseline, after which the model will be optimized and tested with other models.
+- Out of the above models, we will be using the Decision Tree Model. This is because it will be easier to interpret and the dataset is not too large.
