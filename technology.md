@@ -16,4 +16,4 @@ Sklearn Model will be used to perform logistic regression.
 
 
 ## Dashboard
-
+Data visualization would be established with JavaScript libraries and Leaflet
