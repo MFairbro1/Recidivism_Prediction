@@ -1,5 +1,6 @@
 
-#Technologies Used 
+
+# Technologies Used
 
 ## Data Cleaning and Analysis 
 - Pandas: We are going to be using Pandas to perform data cleaning to drop unnecessary columns and streamline information as needed.
