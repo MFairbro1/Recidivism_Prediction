@@ -45,6 +45,6 @@ At this point in time used only a single table which has the data.
 
 <img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193159327-476eee7c-9383-4281-8f6f-3b2ef4479f2b.png">
 
-<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193159483-95529958-fb61-4d5f-a2f8-c5a21b2a3781.png">
+<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193160562-546f49f1-5952-4ed8-9945-4d1bff3e7052.png">
 
 
