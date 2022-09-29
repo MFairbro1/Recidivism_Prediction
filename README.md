@@ -32,4 +32,9 @@ At this point in time used only a single table which has the data.
 
 ### Planned ERD of the database
 
-<img width="899" alt="image" src="https://user-images.githubusercontent.com/104597335/191867368-470f1705-b46a-466a-ae7f-1e789ecb2ec2.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/104597335/191867368-470f1705-b46a-466a-ae7f-1e789ecb2ec2.png">
+
+
+### ERD of the database
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/104597335/193155505-d6a71278-4a24-4620-8d1b-2d51b57d2198.png">
