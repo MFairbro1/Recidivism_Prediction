@@ -47,4 +47,9 @@ At this point in time used only a single table which has the data.
 
 <img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193160562-546f49f1-5952-4ed8-9945-4d1bff3e7052.png">
 
+### Output of the "join" in database
+
+<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193161645-61eb2f76-3782-45a5-8050-073b96cc1fee.png">
+
+
 
