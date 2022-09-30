@@ -44,8 +44,8 @@ Preprocessing:
   Chnged Year Selected, Race, Age, Offence Classification,Offense Type, Release and Return to Prison to encodded variables.
   
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
-Features are everything in the preprocessed data except for "Return to Prison"
+Features are everything in the preprocessed data except for "Return to Prison". 
 
 - Description of how data was split into training and testing sets
-
+Data was split with 80% in training and 20% in testing. It is done in this manner as it is a smaller data set and we wanted to push more towards training than testing data set.
 - Explanation of model choice, including limitations and benefits
