@@ -56,4 +56,4 @@ Other advantages include:
   - Able to handle both numerical and categorical data
   
 At the same time, some limitations of the Decision Tree Model include
-- Overfitting: Decision- tree model can create complex tress that goes against the data training.
+- Overfitting: Decision- tree model can create complex trees that goes against the data training.
