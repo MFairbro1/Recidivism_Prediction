@@ -33,3 +33,12 @@ At this point in time used only a single table which has the data.
 ### Planned ERD of the database
 
 <img width="899" alt="image" src="https://user-images.githubusercontent.com/104597335/191867368-470f1705-b46a-466a-ae7f-1e789ecb2ec2.png">
+
+### Data Preprocessing
+- Dropped unnecessary columns
+- Dropped rows with blanks for race and/or age columns
+- Simplified racial categories by combining hispanic categories into single category, non-hispanic white and black prisoners into separate single categories, and combining blanks and N/A races into single "Other" category
+- Simplified column titles, changing "Recidivism - Return to Prison numeric" to just "Recidivism"
+- Combined "Paroled to Detainer" categories into single category under "Release Type"
+- Replaced blanks in "Release Type" with "Other"
+- Used get_dummies method to convert categorical variables into dummies for machine learning
