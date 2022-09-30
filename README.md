@@ -37,7 +37,7 @@ At this point in time used only a single table which has the data.
 
 ### Machine Learning Model
 - Description of preliminary data preprocessin
-
+  
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
 
 - Description of how data was split into training and testing sets
