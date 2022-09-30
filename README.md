@@ -1,5 +1,8 @@
 # Project Topic: Recidivism Prediction
 
+## Slide Deck
+https://docs.google.com/presentation/d/1HaA6PtNu0cqoJP5Ie7yaM3Us6LniiZSy9C61f8DLYUg/edit#slide=id.g15f1e756293_1_0
+
 ## What is the project trying to establish:
 Predicting which convicts are likely to commit crime again in order to determine rehabilitation strategies.
 
