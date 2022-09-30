@@ -13,3 +13,25 @@ In order to tackle the problem of developing a machine learning algorithm to det
   - Neural Network
   - Support Vector Machines (SVM)
 - Out of the above models, we will be using the Decision Tree Model. This is because it will be easier to interpret and the dataset is not too large.
+
+### Description of preliminary data preprocessing
+Data Cleaning:
+  Removed data connected to new offence committed and offence subtype as it would have biased information.
+Preprocessing:
+  Changed Year Selected, Race, Age, Offence Classification, Offense Type, Release and Return to Prison to encoded variables.
+
+### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+Features are everything in the preprocessed data except for "Return to Prison".
+
+### Description of how data was split into training and testing sets
+Data was split with 80% in training and 20% in testing. It is done in this manner as it is a smaller data set and we wanted to push more towards training than testing data set.
+
+### Explanation of model choice, including limitations and benefits
+Approach - Decision Tree Model
+This was because it would be easier to interpret data given that the data is not too large.
+Other advantages include:
+  - Requires little data preparation.
+  - Able to handle both numerical and categorical data
+
+At the same time, some limitations of the Decision Tree Model include
+- Overfitting: Decision-tree model can create complex trees that goes against the data training.
