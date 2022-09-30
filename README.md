@@ -1,4 +1,4 @@
-# Project Topic: Recidivism Prediction 
+# Project Topic: Recidivism Prediction
 
 ## What is the project trying to establish:
 Predicting which convicts are likely to commit crime again in order to determine rehabilitation strategies.
@@ -49,8 +49,6 @@ At this point in time used only a single table which has the data.
 ### Output of the "join" in database
 
 <img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193175597-f01e475e-1f5c-4563-a8ca-440d00314ffb.png">
-
-<img width="899" alt="image" src="https://user-images.githubusercontent.com/104597335/191867368-470f1705-b46a-466a-ae7f-1e789ecb2ec2.png">
 
 ## Data Preprocessing
 - Dropped unnecessary columns
