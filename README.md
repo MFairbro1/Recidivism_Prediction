@@ -49,7 +49,7 @@ At this point in time used only a single table which has the data.
 
 ### Output of the "join" in database
 
-<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193164562-9219b12e-a2d1-4a1d-ab6d-107dd7fe24e0.png">
+<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193175597-f01e475e-1f5c-4563-a8ca-440d00314ffb.png">
 
 
 
