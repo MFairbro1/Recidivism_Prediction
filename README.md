@@ -36,9 +36,15 @@ At this point in time used only a single table which has the data.
 
 
 ### Machine Learning Model
-- Description of preliminary data preprocessin
+- Description of preliminary data preprocessing
+Data Cleaning:
+Removed data connected to new offence commited and offence subtype as it would have biased informations. 
+  
+Preprocessing:
+  Chnged Year Selected, Race, Age, Offence Classification,Offense Type, Release and Return to Prison to encodded variables.
   
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+Features are everything in the preprocessed data except for "Return to Prison"
 
 - Description of how data was split into training and testing sets
 
