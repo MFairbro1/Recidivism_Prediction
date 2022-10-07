@@ -13,12 +13,6 @@ Predicting which convicts are likely to commit crime again in order to determine
 
 Recidivism dataset for prisoners serving prison terms in Iowa over a three year period, after initial release from prison. Includes data for race/ethnicity, age, offense type etc. for each prisoner.
 
-## Communication Protocols:
-- Slack
-  - to speak about questions and queires while working on independant parts
-- Zoom
-  - to work together aside from the class time
-
 ## Database Preparation
 
 ### Tools Used
@@ -36,27 +30,22 @@ Recidivism dataset for prisoners serving prison terms in Iowa over a three year 
 
 At this point in time used only a single table which has the data.
 
-### Planned ERD of the database
-
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/104597335/191867368-470f1705-b46a-466a-ae7f-1e789ecb2ec2.png">
-
 ### ERD of the database
 
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/104597335/193155505-d6a71278-4a24-4620-8d1b-2d51b57d2198.png">
 
-### Loaded data into the tables in the database
+## Machine Learning Approach
+In order to tackle the problem of developing a machine learning algorithm to determine which characteristics (features) of an inmate contribute more to recidivism, the following approach will be used:
 
-<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193159269-504785c8-175c-43ce-b09d-f3dd33e2f3a4.png">
+- Use a Supervised Machine Learning Algorithm with the target variable being 'Return to Prison'.
+  - A Supervised Machine Learning Algorithm is used as there is a target variable that can be used to predict the accuracy of the Machine Learning Algorithm.  
+  - The 'Return to Prison' variable is set as the target as it tells us whether the prisoner returned to prison within 3 years of being out of prison.
 
-<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193159327-476eee7c-9383-4281-8f6f-3b2ef4479f2b.png">
+### Description of preliminary data preprocessing
+Data Cleaning:
+- Removed data connected to new offence committed and offence subtype as it would have biased information.
 
-<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193160562-546f49f1-5952-4ed8-9945-4d1bff3e7052.png">
-
-### Output of the "join" in database
-
-<img width="739" alt="image" src="https://user-images.githubusercontent.com/104597335/193175597-f01e475e-1f5c-4563-a8ca-440d00314ffb.png">
-
-## Data Preprocessing
+Preprocessing:
 - Dropped unnecessary columns
 - Dropped rows with blanks for race and/or age columns
 - Simplified racial categories by combining hispanic categories into single category, non-hispanic white and black prisoners into separate single categories, and combining blanks and N/A races into single "Other" category
@@ -64,3 +53,28 @@ At this point in time used only a single table which has the data.
 - Combined "Paroled to Detainer" categories into single category under "Release Type"
 - Replaced blanks in "Release Type" with "Other"
 - Used get_dummies method to convert categorical variables into dummies for machine learning
+
+### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+Features are everything in the preprocessed data except for "Return to Prison".
+
+### Description of how data was split into training and testing sets
+Data was split with 80% in training and 20% in testing. It is done in this manner as it is a smaller data set and we wanted to push more towards training than testing data set.
+
+### Explanation of model choice, including limitations and benefits
+Approach - Decision Tree Model
+This was because it would be easier to interpret data given that the data is not too large.
+Other advantages include:
+  - Requires little data preparation.
+  - Able to handle both numerical and categorical data
+
+At the same time, some limitations of the Decision Tree Model include
+- Overfitting: Decision-tree model can create complex trees that goes against the data training.
+
+### Explanation of changes in model choice
+After the Decision Tree approach was tested, further attempts at optimization were made by using a neural network model. With some tweaking, the neural network outperformed the decision tree model in terms of accuracy by approximately 2%.
+
+### Description of model training
+It was found that the use of a sigmoid activation function with 3 hidden layers improved the accuracy of the model beyond what was achieved with the decision tree approach.
+
+### Description of current accuracy score
+The current accuracy score is around 67.1%, as opposed to the previous score obtained from the decision tree model, which was 64.9%.
