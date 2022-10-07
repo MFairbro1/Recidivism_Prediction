@@ -35,3 +35,12 @@ Other advantages include:
 
 At the same time, some limitations of the Decision Tree Model include
 - Overfitting: Decision-tree model can create complex trees that goes against the data training.
+
+### Explanation of changes in model choice
+After the Decision Tree approach was tested, further attempts at optimization were made by using a neural network model. With some tweaking, the neural network outperformed the decision tree model in terms of accuracy by approximately 2%.
+
+### Description of model training
+It was found that the use of a sigmoid activation function with 3 hidden layers improved the accuracy of the model beyond what was achieved with the decision tree approach.
+
+### Description of current accuracy score
+The current accuracy score is around 67.1%, as opposed to the previous score obtained from the decision tree model, which was 64.9%.
