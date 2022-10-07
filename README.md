@@ -3,6 +3,9 @@
 ## Slide Deck
 https://docs.google.com/presentation/d/1HaA6PtNu0cqoJP5Ie7yaM3Us6LniiZSy9C61f8DLYUg/edit#slide=id.g15f1e756293_1_0
 
+## Tableau Dashboard
+https://public.tableau.com/views/RecidivismAnalysis_16651037664290/RecidivismGroups?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
 ## What is the project trying to establish:
 Predicting which convicts are likely to commit crime again in order to determine rehabilitation strategies.
 
