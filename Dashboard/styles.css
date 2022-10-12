@@ -5,19 +5,20 @@
     font-family: 'poppins', sans-serif;
 }
 .topbar{
-    position: fixed;
+    position: relative;
     background: rgb(121, 173, 53) ;
     box-shadow: 0 4px 8px  0 rgba(0, 0, 0, 0.08);
     width : 100%;
     height: 60px;
     padding: 0 20px;
     display:grid;
-    grid-template-columns: 2fr 10fr 0.4fr 1fr;
+    grid-template-columns: 0.1fr 2fr;
     align-items: center;
     z-index: 1;
 }
 .logo{
-    color: #299863;
+    position: relative;
+    color: #ffffff;
 }
 .search{
     position: relative;
